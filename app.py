@@ -15,7 +15,7 @@ st.write("Explora el conjunto de datos y visualiza patrones en los precios y kil
 # --- CARGAR DATOS ---
 car_data = pd.read_csv('vehicles_us.csv')
 
-# --- FILTROS OPCIONALES ---
+# --- FILTROS ---
 st.sidebar.header("Filtros")
 selected_make = st.sidebar.selectbox(
     "Selecciona una marca:",

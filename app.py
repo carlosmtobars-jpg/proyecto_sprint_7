@@ -64,7 +64,7 @@ if scatter_button:
         x="odometer",
         y="price",
         color="model",  # agrega color por modelo
-        hover_data=["model", "year"],
+        hover_data=["model", "model_year"],
         title="Precio vs Kilometraje",
         opacity=0.7,
         color_discrete_sequence=px.colors.qualitative.Vivid
